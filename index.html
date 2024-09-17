@@ -1,1 +1,37 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Hover Effect</title>
+</head>
+<body>
+    <h1 >Hover over the image to make it disappear!</h1>
+    
+    <!-- Table to center the image -->
+    <table width="100%" height="100%">
+        <tr>
+            <td align="center" valign="middle">
+                <!-- Image Element -->
+                <img id="hoverImage" 
+                     src="https://gratisography.com/wp-content/uploads/2024/03/gratisography-funflower-1170x780.jpg" 
+                     alt="Sample Image" width="500" height="500">
+            </td>
+        </tr>
+    </table>
+
+    <!-- JavaScript for hover effect -->
+    <script>
+        const imgElement = document.getElementById('hoverImage');
+
+        imgElement.addEventListener('mouseover', function() {
+            imgElement.style.display = 'none';
+        });
+
+        imgElement.addEventListener('mouseout', function() {
+            imgElement.style.display = 'block';
+        });
+    </script>
+</body>
+</html>
