@@ -17,7 +17,7 @@ This version uses JavaScript to control the hover behavior. When the mouse hover
 - Hover over the image to make it disappear and move the mouse away to make it reappear.
 
 
-<img id="hoverImage" src="https://www.istockphoto.com/photo/groups-of-dogs-labrador-puppies-puppy-chocolate-labrador-retriever-in-front-of-white-gm1069531070-286100409" alt="Sample Image" width="500" height="500">
+<img id="hoverImage" src="https://www.pexels.com/photo/close-photography-of-red-and-pink-rose-56866/" alt="Sample Image" width="500" height="500">
 
 <script>
     const imgElement = document.getElementById('hoverImage');
