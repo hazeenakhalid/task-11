@@ -17,7 +17,7 @@ This version uses JavaScript to control the hover behavior. When the mouse hover
 - Hover over the image to make it disappear and move the mouse away to make it reappear.
 
 
-<img id="hoverImage" src="https://gratisography.com/wp-content/uploads/2024/03/gratisography-funflower-1170x780.jpg" alt="Sample Image" width="500" height="500">
+<img id="hoverImage" src="https://media.istockphoto.com/id/487632390/photo/friends-having-fun-in-the-park.webp?b=1&s=612x612&w=0&k=20&c=Hv3m-PtzK6sqU4jVWTUN6kS_DE2Gw7Jb7nEG8UiriLc=" alt="Sample Image" width="500" height="500">
 
 <script>
     const imgElement = document.getElementById('hoverImage');
